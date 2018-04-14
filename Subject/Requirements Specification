@@ -1,0 +1,24 @@
+Subject
+->registration
+->login
+->see all projects he/she qualifies for
+->sends message/email to admin
+
+
+Admin
+->login
+->create recruiter crud
+->forwards subjects messages to recruiter 
+->send recruiter messages to subjects
+
+
+
+Recruiter 	
+->login
+->project requirements crud
+
+Domain Objects:
+-Subject : ID, First name, Last name, ph no, email, d.o.b, ethnicity, height , username, password
+-Project : ID, Name, recruiter name, ethnicity, min height, max height, min age, max age, 
+-ProjectSubject: ID, project id, subject id, status,subject comments, requireter comments
+-Recruiter: ID, name, ph no, email, address, username, password
